@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Settings>
+    <FirstRun>true</FirstRun>
+    <References>
+      <Update>false</Update>
+      <NewPath></NewPath>
+    </References>
+    <Postbuild>
+      <Overwrite>true</Overwrite>
+      <Move>
+        <Wildcard>*.dll</Wildcard>
+        <Directory>Builds\</Directory>
+      </Move>
+      <Move>
+        <Wildcard>*.exe</Wildcard>
+        <Directory>Builds\</Directory>
+      </Move>
+    </Postbuild>
+  </Settings>
+  <Repositories>
+    <Repository Enabled="true">
+      <Info>Awesome Dude</Info>
+      <Author>Lizzaran</Author>
+      <Url>https://github.com/Lizzaran/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Info>LeagueSharp.Common</Info>
+      <Author>Esk0r</Author>
+      <Url>https://github.com/LeagueSharp/LeagueSharpCommon</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Info>That Syndra tho</Info>
+      <Author>Esk0r</Author>
+      <Url>https://github.com/Esk0r/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>RoachxD</Author>
+      <Url>https://github.com/RoachxD/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>trelli</Author>
+      <Url>https://github.com/trelli/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>detuks</Author>
+      <Url>https://github.com/detuks/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>Chogart</Author>
+      <Url>https://github.com/Chogart/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>Irvinee</Author>
+      <Url>https://github.com/Irvinee/leaguesharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>ehmehe</Author>
+      <Url>https://github.com/ehmehe/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>jasteph</Author>
+      <Url>https://github.com/jasteph/LeagueSharp</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>GXion</Author>
+      <Url>https://github.com/Xionanx/Leaguesharp-Projects</Url>
+    </Repository>
+    <Repository Enabled="true">
+      <Author>Ecko</Author>
+      <Url>https://github.com/BotHappy/Ecko</Url>
+    </Repository>
+  </Repositories>
+</Config>

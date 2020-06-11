@@ -1,0 +1,140 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- MainWindow TopBar -->
+    <system:String x:Key="Website">Web-сайт</system:String>
+    <system:String x:Key="Settings">Настройки</system:String>
+
+    <!-- MainWindow Tabs -->
+    <system:String x:Key="News">Новости</system:String>
+    <system:String x:Key="Assemblies">Скрипты</system:String>
+
+    <!-- MainWindow Profile selector -->
+    <system:String x:Key="DefaultProfile">По умолчанию</system:String>
+
+    <!-- MainWindow Assemblies datagrid columns -->
+    <system:String x:Key="ColumnName">Название</system:String>
+    <system:String x:Key="ColumnType">Тип</system:String>
+    <system:String x:Key="ColumnVersion">Версия</system:String>
+    <system:String x:Key="ColumnLocation">Расположение</system:String>
+    <system:String x:Key="ColumnDescription">Описание</system:String>
+
+    <!-- MainWindow Assemblies datagrid Menu -->
+    <system:String x:Key="MenuUpdateAndCompile">Обновить и скомпилировать</system:String>
+    <system:String x:Key="MenuRemove">Удалить</system:String>
+    <system:String x:Key="MenuGithub">GitHub</system:String>
+    <system:String x:Key="MenuGithubAssemblies">GitHub Скрипты</system:String>
+    <system:String x:Key="MenuShare">Поделиться</system:String>
+    <system:String x:Key="MenuViewLog">Просмотреть лог</system:String>
+
+    <!-- MainWindow Profiles Menu -->
+    <system:String x:Key="NewProfile">Создать</system:String>
+    <system:String x:Key="ChangeName">Изменить</system:String>
+    <system:String x:Key="DeleteProfile">Удалить</system:String>
+
+    <!-- MainWindow Buttons -->
+    <system:String x:Key="AcceptTosButton">I Accept</system:String>
+    <system:String x:Key="DeclineTosButton">I Decline</system:String>
+    <system:String x:Key="UpdateAll">Обновить Все</system:String>
+    <system:String x:Key="CompileAll">Скомпилировать Все</system:String>
+    <system:String x:Key="InstallNewAssembly">Установить новый скрипт</system:String>
+
+    <!-- InstallerWindow Title -->
+    <system:String x:Key="AssemblyInstaller">Установщик скриптов</system:String>
+
+    <!-- InstallerWindow Tabs -->
+    <system:String x:Key="Search">Поиск</system:String>
+    <system:String x:Key="Select">Выбор</system:String>
+
+    <!-- InstallerWindow Search tab -->
+    <system:String x:Key="SelectAssembliesText">Выбрать расположение скрипта:</system:String>
+    <system:String x:Key="Local">Локальный</system:String>
+    <system:String x:Key="Github">GitHub</system:String>
+    <system:String x:Key="Installed">Установлен</system:String>
+    <system:String x:Key="Next">Далее</system:String>
+
+    <!-- InstallerWindow Select tab -->
+    <system:String x:Key="SelectAll">Выбрать все</system:String>
+    <system:String x:Key="DeselectAll">Снять выбор</system:String>
+    <system:String x:Key="Previous">Предыдущий</system:String>
+    <system:String x:Key="Add">Добавить</system:String>
+
+    <!-- Settings General -->
+    <system:String x:Key="General">Общее</system:String>
+    <system:String x:Key="GameSettings">Настройки Игры</system:String>
+    <system:String x:Key="Anti-AFK">Анти-AFK</system:String>
+    <system:String x:Key="Debug Console">Debug Консоль</system:String>
+    <system:String x:Key="Display Enemy Tower Range">Отображать радиус атаки вражеских башен</system:String>
+    <system:String x:Key="Extended Zoom">Увеличенный zoom</system:String>
+    <system:String x:Key="UpdateOnStart">Обновлять скрипты при запуске</system:String>
+    <system:String x:Key="Inject">Инъекция</system:String>
+    <system:String x:Key="Logout">Выйти</system:String>
+    <system:String x:Key="DefaultHotkeys">Восстановить</system:String>
+    <system:String x:Key="Language">Язык</system:String>
+    <system:String x:Key="Color">Color</system:String>
+
+    <!-- Settings Hotkeys -->
+    <system:String x:Key="Hotkeys">Горячие клавиши</system:String>
+    <system:String x:Key="Hotkey">Бинд</system:String>
+    <system:String x:Key="Reload the assemblies">Перезагрузить скрипты</system:String>
+    <system:String x:Key="Recompile and reload the assemblies">Перекомпилировать и перезагрузить скрипты</system:String>
+    <system:String x:Key="Shows the menu (Press)">Показать меню (Держать)</system:String>
+    <system:String x:Key="Shows the menu (Toggle)">Показать меню (Toggle)</system:String>
+
+    <!-- Settings Log -->
+    <system:String x:Key="Log">Лог</system:String>
+    <system:String x:Key="Status">Статус</system:String>
+    <system:String x:Key="Source">Исходник</system:String>
+    <system:String x:Key="Content">Содержание</system:String>
+    <system:String x:Key="OpenFolder">Открыть папку</system:String>
+
+    <!-- UpdateWindow -->
+    <system:String x:Key="UpdatingLeagueSharp">Обновление LeagueSharp</system:String>
+    <system:String x:Key="Updating">Обновление...</system:String>
+    <system:String x:Key="UpdateWaiting">Waiting...</system:String>
+    <system:String x:Key="UpdateText">Скачано {0} KB из {1} KB.</system:String>
+
+
+    <!-- Errors and other strings -->
+    <system:String x:Key="WrongAuth">Неверный логин или пароль, зарегистрируйтесь в {0}</system:String>
+    <system:String x:Key="AuthEmpty">Логин или пароль пусты</system:String>
+    <system:String x:Key="FailedToDelete">Невозможно удалить файл обновления, пожалуйста удалите файл вручную и перезагрузите LeagueSharp</system:String>
+    <system:String x:Key="WrongVersion">Не поддерживаемая версия League Of Legends. Хэш:</system:String>
+    <system:String x:Key="FailedToDownload">Невозможно загрузить.</system:String>
+    <system:String x:Key="FailedToLogin">Ошибка при авторизации: {0}</system:String>
+    <system:String x:Key="Login">Логин</system:String>
+    <system:String x:Key="LoginError">Ошибка при логине..</system:String>
+    <system:String x:Key="Uninstall">Удаление</system:String>
+    <system:String x:Key="UninstallConfirm">Вы уверены, что хотите удалить данный скрипт?</system:String>
+    <system:String x:Key="ConfigWriteError">Не удалось записать файл config.xml</system:String>
+    <system:String x:Key="ShareText">Ссылка скопирована в буфер обмена</system:String>
+    <system:String x:Key="LogNotFound">Файлы логов не найдены</system:String>
+    <system:String x:Key="NewProfile2">Новый</system:String>
+    <system:String x:Key="Rename">Переименовать</system:String>
+    <system:String x:Key="RenameText">Введите имя нового профиля</system:String>
+    <system:String x:Key="DownloadingData">Загрузка необходимых данных.</system:String>
+    <system:String x:Key="Installer">Установщик</system:String>
+    <system:String x:Key="SuccessfullyInstalled">Выбранный скрипт успешно установлен.</system:String>
+    <system:String x:Key="ErrorInstalling">Произошла ошибка при установке, для получения подробной информации просмотрите файлы логов.</system:String>
+
+    <system:String x:Key="EnableDeveloper">Режим разработчика</system:String>
+    <system:String x:Key="Developer">Разработчик</system:String>
+    <system:String x:Key="New">Новый</system:String>
+    <system:String x:Key="Edit">Редактировать</system:String>
+    <system:String x:Key="Clone">Клонировать</system:String>
+
+
+    <system:String x:Key="Checking">Проверка...</system:String>
+    <system:String x:Key="Updated">Обновлён</system:String>
+    <system:String x:Key="OUTDATED">УСТАРЕЛ</system:String>
+    <system:String x:Key="Unknown">Неизвестно</system:String>
+    <system:String x:Key="UpdateStatus">Статус</system:String>
+
+    <system:String x:Key="LoaderUpdateFailed">Не удалось произвести обновление, обновите вручную. Ошибка:</system:String>
+    <system:String x:Key="LeagueNotFound">Не удалось определить местоположение "League of Legends.exe", попробуйте снова.</system:String>
+    <system:String x:Key="UpdateSuccess">LeagueSharp успешно обновился и соответствует версии игры.</system:String>
+    <system:String x:Key="UpdateUnknown">Не удалось сопоставить версии LeagueSharp и игрового клиента, вероятно, ресурс www.joduska.me недоступен.</system:String>
+    <system:String x:Key="NotUpdateNeeded">Версия LeagueSharp соответствует версии игры и не требует обновления.</system:String>
+    <system:String x:Key="RandomizationFailed">Could not randomize the dll names.</system:String>
+</ResourceDictionary>

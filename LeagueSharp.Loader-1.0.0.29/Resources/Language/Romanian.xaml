@@ -1,0 +1,138 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- MainWindow TopBar -->
+    <system:String x:Key="Website">Web-site</system:String>
+    <system:String x:Key="Settings">Setari</system:String>
+
+    <!-- MainWindow Tabs -->
+    <system:String x:Key="News">Noutati</system:String>
+    <system:String x:Key="Assemblies">Ansamble</system:String>
+
+    <!-- MainWindow Profile selector -->
+    <system:String x:Key="DefaultProfile">Default</system:String>
+
+    <!-- MainWindow Assemblies datagrid columns -->
+    <system:String x:Key="ColumnName">Nume</system:String>
+    <system:String x:Key="ColumnType">Tip</system:String>
+    <system:String x:Key="ColumnVersion">Versiune</system:String>
+    <system:String x:Key="ColumnLocation">Locatie</system:String>
+    <system:String x:Key="ColumnDescription">Descriptie</system:String>
+
+    <!-- MainWindow Assemblies datagrid Menu -->
+    <system:String x:Key="MenuUpdateAndCompile">Actualizati si Compilati</system:String>
+    <system:String x:Key="MenuRemove">Eliminati</system:String>
+    <system:String x:Key="MenuGithub">GitHub</system:String>
+    <system:String x:Key="MenuGithubAssemblies">GitHub Ansamble</system:String>
+    <system:String x:Key="MenuShare">Partajati</system:String>
+    <system:String x:Key="MenuViewLog">Aratati Log</system:String>
+
+    <!-- MainWindow Profiles Menu -->
+    <system:String x:Key="NewProfile">Nou</system:String>
+    <system:String x:Key="ChangeName">Schimbati Nume</system:String>
+    <system:String x:Key="DeleteProfile">Stergeti</system:String>
+
+    <!-- MainWindow Buttons -->
+    <system:String x:Key="AcceptTosButton">Eu Accept</system:String>
+    <system:String x:Key="DeclineTosButton">Eu Refuz</system:String>
+    <system:String x:Key="UpdateAll">Actualizati Tot</system:String>
+    <system:String x:Key="CompileAll">Compilati Tot</system:String>
+    <system:String x:Key="InstallNewAssembly">Instalati nou ansamblu</system:String>
+
+    <!-- InstallerWindow Title -->
+    <system:String x:Key="AssemblyInstaller">Instalator de ansamble</system:String>
+
+    <!-- InstallerWindow Tabs -->
+    <system:String x:Key="Search">Cautati</system:String>
+    <system:String x:Key="Select">Selectati</system:String>
+
+    <!-- InstallerWindow Search tab -->
+    <system:String x:Key="SelectAssembliesText">Selectati locatia ansamblului:</system:String>
+    <system:String x:Key="Local">Local</system:String>
+    <system:String x:Key="Github">GitHub</system:String>
+    <system:String x:Key="Installed">Instalat</system:String>
+    <system:String x:Key="Next">Urmator</system:String>
+
+    <!-- InstallerWindow Select tab -->
+    <system:String x:Key="SelectAll">Selectati Toate</system:String>
+    <system:String x:Key="DeselectAll">Deselectati Toate</system:String>
+    <system:String x:Key="Previous">Precedent</system:String>
+    <system:String x:Key="Add">Adaugati</system:String>
+
+    <!-- Settings General -->
+    <system:String x:Key="General">General</system:String>
+    <system:String x:Key="GameSettings">Setari de joc</system:String>
+    <system:String x:Key="Anti-AFK">Anti-AFK</system:String>
+    <system:String x:Key="Debug Console">Console de Debug</system:String>
+    <system:String x:Key="Display Enemy Tower Range">Aratati Range-ul turetelor inamici</system:String>
+    <system:String x:Key="Extended Zoom">Extended Zoom</system:String>
+    <system:String x:Key="UpdateOnStart">Actualizati ansamblurile la start</system:String>
+    <system:String x:Key="Inject">Inject</system:String>
+    <system:String x:Key="Logout">Logout</system:String>
+    <system:String x:Key="DefaultHotkeys">Restabiliti Hotkey de default</system:String>
+    <system:String x:Key="Language">Limba</system:String>
+    <system:String x:Key="Color">Color</system:String>
+
+    <!-- Settings Hotkeys -->
+    <system:String x:Key="Hotkeys">Hotkeys</system:String>
+    <system:String x:Key="Hotkey">Hotkey</system:String>
+    <system:String x:Key="Reload the assemblies">Recompilati Ansamblurile</system:String>
+    <system:String x:Key="Recompile and reload the assemblies">Recompilati si reîncarcati Ansamblurile</system:String>
+    <system:String x:Key="Shows the menu (Press)">Aratati meniul (Press)</system:String>
+    <system:String x:Key="Shows the menu (Toggle)">Aratati meniul (Toggle)</system:String>
+
+    <!-- Settings Log -->
+    <system:String x:Key="Log">Log</system:String>
+    <system:String x:Key="Status">Status</system:String>
+    <system:String x:Key="Source">Sursa</system:String>
+    <system:String x:Key="Content">Continut</system:String>
+    <system:String x:Key="OpenFolder">Deschideti foler</system:String>
+
+    <!-- UpdateWindow -->
+    <system:String x:Key="UpdatingLeagueSharp">Actualizare Leaguesharp</system:String>
+    <system:String x:Key="Updating">Se actualizeaza...</system:String>
+    <system:String x:Key="UpdateWaiting">Waiting...</system:String>
+    <system:String x:Key="UpdateText">Descarcat {0} KB din {1} KB.</system:String>
+
+    <!-- Errors and other strings -->
+    <system:String x:Key="WrongAuth">Password-ul sau Username-ul este gresit, inregistrativa pe {0}</system:String>
+    <system:String x:Key="AuthEmpty">Password-ul sau Username-ul este gol</system:String>
+    <system:String x:Key="FailedToDelete">Nu sa putut sterge fisierul, va rugam sa il stergeti manual si sa restartati LeagueSharp</system:String>
+    <system:String x:Key="WrongVersion">Versiunea din League of Legends nu este suportata. Hash:</system:String>
+    <system:String x:Key="FailedToDownload">Download nereusit.</system:String>
+    <system:String x:Key="FailedToLogin">Login nereusit: {0}</system:String>
+    <system:String x:Key="Login">Login</system:String>
+    <system:String x:Key="LoginError">Login nereusit ca {0}: {1}</system:String>
+    <system:String x:Key="Uninstall">Dezinstalati</system:String>
+    <system:String x:Key="UninstallConfirm">Sunteti sigur de a dezinstala aceste ansambluri ?</system:String>
+    <system:String x:Key="ConfigWriteError">Nu sa putut scrie pe Config.xml</system:String>
+    <system:String x:Key="ShareText">Url-ul ansamblului copiat pe clipboard</system:String>
+    <system:String x:Key="LogNotFound">Fisierul de Log nu a fost gasit</system:String>
+    <system:String x:Key="NewProfile2">Profil nou</system:String>
+    <system:String x:Key="Rename">Redenumiti</system:String>
+    <system:String x:Key="RenameText">Introduceti noua denumire pentru profil</system:String>
+    <system:String x:Key="DownloadingData">Se downloadeaza datele necesare</system:String>
+    <system:String x:Key="Installer">Instalator</system:String>
+    <system:String x:Key="SuccessfullyInstalled">Ansamblele selectate au fost instalate corect.</system:String>
+    <system:String x:Key="ErrorInstalling">A aparut o eroare în timp ce încercati sa instalati unele dintre ansamble, verificati Logul pentru mai multe detalii.</system:String>
+
+    <system:String x:Key="EnableDeveloper">Activeaza optiunile dezvoltator</system:String>
+    <system:String x:Key="Developer">Dezvoltator</system:String>
+    <system:String x:Key="New">Now</system:String>
+    <system:String x:Key="Edit">Editeaza</system:String>
+    <system:String x:Key="Clone">Clona</system:String>
+
+    <system:String x:Key="Checking">Cauta...</system:String>
+    <system:String x:Key="Updated">Updatat</system:String>
+    <system:String x:Key="OUTDATED">Invechit</system:String>
+    <system:String x:Key="Unknown">Necunoscut</system:String>
+    <system:String x:Key="UpdateStatus">Status</system:String>
+
+    <system:String x:Key="LoaderUpdateFailed">Nu s-a putut descarca update-ul,va rugam descarcati-l manual. Error:</system:String>
+    <system:String x:Key="LeagueNotFound">Nu sa putut gasi locatia fisierului "League of Legendds.exe",va rugam deschide-ti un joc personalizat.</system:String>
+    <system:String x:Key="UpdateSuccess">LeagueSharp sa updatat cu succes pentru versiunea instalata de League f Legends</system:String>
+    <system:String x:Key="UpdateUnknown">Nu s-a putut determina daca LeagueSharp este updatat pentru versiunea locala de League of Legends,deobicei asta inseamna ca site-ul www.joduska.me este inaccesibil.</system:String>
+    <system:String x:Key="NotUpdateNeeded">LeagueSharp este updatat pentru versiunea de League of LEgends locala.</system:String>
+    <system:String x:Key="RandomizationFailed">Could not randomize the dll names.</system:String>
+</ResourceDictionary>

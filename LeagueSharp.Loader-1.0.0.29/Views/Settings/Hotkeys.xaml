@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="LeagueSharp.Loader.Views.Settings.Hotkeys"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="334" d:DesignWidth="377"
+	 KeyUp="Hotkeys_OnKeyUp">
+    <Grid>
+        <DataGrid x:Name="HotkeysDataGrid" Margin="0,0,0,30" ItemsSource="{Binding Config.Hotkeys.SelectedHotkeys}" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="{DynamicResource ColumnDescription}" Binding="{Binding DisplayDescription}" Width="*"/>
+                <DataGridTextColumn Header="{DynamicResource Hotkey}" Binding="{Binding HotkeyString}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="{DynamicResource DefaultHotkeys}" HorizontalAlignment="Left" Width="115" Height="25" VerticalAlignment="Bottom" Click="ButtonBase_OnClick"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,138 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- MainWindow TopBar -->
+    <system:String x:Key="Website">Web sitesi</system:String>
+    <system:String x:Key="Settings">Ayarlar</system:String>
+
+    <!-- MainWindow Tabs -->
+    <system:String x:Key="News">Haberler</system:String>
+    <system:String x:Key="Assemblies">Assemblyler</system:String>
+
+    <!-- MainWindow Profile selector -->
+    <system:String x:Key="DefaultProfile">Varsayılan</system:String>
+
+    <!-- MainWindow Assemblies datagrid columns -->
+    <system:String x:Key="ColumnName">İsim</system:String>
+    <system:String x:Key="ColumnType">Tür</system:String>
+    <system:String x:Key="ColumnVersion">Versiyon</system:String>
+    <system:String x:Key="ColumnLocation">Konum</system:String>
+    <system:String x:Key="ColumnDescription">Açıklama</system:String>
+
+    <!-- MainWindow Assemblies datagrid Menu -->
+    <system:String x:Key="MenuUpdateAndCompile">Güncelle ve Derle</system:String>
+    <system:String x:Key="MenuRemove">Kaldır</system:String>
+    <system:String x:Key="MenuGithub">GitHub</system:String>
+    <system:String x:Key="MenuGithubAssemblies">GitHub Assemblyler</system:String>
+    <system:String x:Key="MenuShare">Paylaş</system:String>
+    <system:String x:Key="MenuViewLog">Kayıt Görüntüle</system:String>
+
+	<!-- MainWindow Profiles Menu -->
+    <system:String x:Key="NewProfile">Yeni</system:String>
+    <system:String x:Key="ChangeName">Yeniden Adlandır</system:String>
+    <system:String x:Key="DeleteProfile">Sil</system:String>
+	
+    <!-- MainWindow Buttons -->
+    <system:String x:Key="AcceptTosButton">I Accept</system:String>
+    <system:String x:Key="DeclineTosButton">I Decline</system:String>
+    <system:String x:Key="UpdateAll">Hepsini Güncelle</system:String>
+    <system:String x:Key="CompileAll">Hepsini Derle</system:String>
+    <system:String x:Key="InstallNewAssembly">Yeni Assembly Yükle</system:String>
+
+    <!-- InstallerWindow Title -->
+    <system:String x:Key="AssemblyInstaller">Assembly Yükleyici</system:String>
+
+    <!-- InstallerWindow Tabs -->
+    <system:String x:Key="Search">Ara</system:String>
+    <system:String x:Key="Select">Seç</system:String>
+
+    <!-- InstallerWindow Search tab -->
+    <system:String x:Key="SelectAssembliesText">Assembly Konumunu Seç:</system:String>
+    <system:String x:Key="Local">Yerel</system:String>
+    <system:String x:Key="Github">GitHub</system:String>
+    <system:String x:Key="Installed">Yüklendi</system:String>
+    <system:String x:Key="Next">Sonraki</system:String>
+
+    <!-- InstallerWindow Select tab -->
+    <system:String x:Key="SelectAll">Hepsini Seç</system:String>
+    <system:String x:Key="DeselectAll">Seçimleri Geri Al</system:String>
+    <system:String x:Key="Previous">Önceki</system:String>
+    <system:String x:Key="Add">Ekle</system:String>
+
+    <!-- Settings General -->
+    <system:String x:Key="General">Genel</system:String>
+    <system:String x:Key="GameSettings">Oyun Ayarları</system:String>
+    <system:String x:Key="Anti-AFK">LeaveBuster engelleyici</system:String>
+    <system:String x:Key="Debug Console">Hata ayıklama konsolu</system:String>
+    <system:String x:Key="Display Enemy Tower Range">Düşman kule menzilini göster</system:String>
+    <system:String x:Key="Extended Zoom">Genişletilmiş kamera</system:String>
+    <system:String x:Key="UpdateOnStart">Assemblyleri her başlangıçta güncelle</system:String>
+    <system:String x:Key="Inject">Enjekte Et</system:String>
+    <system:String x:Key="Logout">Çıkış</system:String>
+    <system:String x:Key="DefaultHotkeys">Geri Yükle</system:String>
+	<system:String x:Key="Language">Dil</system:String>
+    <system:String x:Key="Color">Color</system:String>
+	
+    <!-- Settings Hotkeys -->
+    <system:String x:Key="Hotkeys">Kısayollar</system:String>
+    <system:String x:Key="Hotkey">Kısayol</system:String>
+    <system:String x:Key="Reload the assemblies">Assemblyleri Yeniden Yükle</system:String>
+    <system:String x:Key="Recompile and reload the assemblies">Assemblyleri yeniden derle ve yeniden yükle</system:String>
+    <system:String x:Key="Shows the menu (Press)">Menü Tuşu (Basılı tutunca)</system:String>
+    <system:String x:Key="Shows the menu (Toggle)">Menü Tuşu (Geçiş)</system:String>
+
+    <!-- Settings Log -->
+    <system:String x:Key="Log">Kayıt</system:String>
+    <system:String x:Key="Status">Durum</system:String>
+    <system:String x:Key="Source">Kaynak</system:String>
+    <system:String x:Key="Content">İçerik</system:String>
+    <system:String x:Key="OpenFolder">Klasörü Aç</system:String>
+
+    <!-- UpdateWindow -->
+    <system:String x:Key="UpdatingLeagueSharp">LeagueSharp Güncelleniyor</system:String>
+    <system:String x:Key="Updating">Güncelleniyor</system:String>
+    <system:String x:Key="UpdateWaiting">Waiting...</system:String>
+    <system:String x:Key="UpdateText">{1} KB'ın {0} KB'ı yüklendi.</system:String>
+
+    <!-- Errors and other strings -->
+    <system:String x:Key="WrongAuth">Yanlış şifre veya kullancı Adı, {0}'dan kayıt olun.</system:String>
+    <system:String x:Key="AuthEmpty">Kullanıcı adı veya şifreyi girmediniz.</system:String>
+    <system:String x:Key="FailedToDelete">Silme işlemi başarısız, lütfen silme işlemini el ile yapıp LeagueSharp'ı yeniden başlatın.</system:String>
+    <system:String x:Key="WrongVersion">League Of Legends versiyonu desteklenmiyor. Hash:</system:String>
+    <system:String x:Key="FailedToDownload">İndirme Başarısız.</system:String>
+    <system:String x:Key="FailedToLogin">Giriş Başarısız: {0}</system:String>
+    <system:String x:Key="Login">Giriş</system:String>
+    <system:String x:Key="LoginError">{0} olarak giriş başarısız: {1}</system:String>
+    <system:String x:Key="Uninstall">Kaldır</system:String>
+    <system:String x:Key="UninstallConfirm">Seçili assemblyleri kaldırmak istediğinize emin misiniz?</system:String>
+    <system:String x:Key="ConfigWriteError">config.xml dosyasına yazılamıyor.</system:String>
+    <system:String x:Key="ShareText">Assembly bağlantısı kopyalandı.</system:String>
+    <system:String x:Key="LogNotFound">Kayıt dosyası bulunamadı.</system:String>
+    <system:String x:Key="NewProfile2">Yeni profil</system:String>
+    <system:String x:Key="Rename">Yeniden adlandır</system:String>
+    <system:String x:Key="RenameText">Profil için yeni isim girin</system:String>
+    <system:String x:Key="DownloadingData">Gerekli veri indiriliyor.</system:String>
+    <system:String x:Key="Installer">Yükleyici</system:String>
+    <system:String x:Key="SuccessfullyInstalled">Seçili assemblyler başarıyla yüklendi.</system:String>
+    <system:String x:Key="ErrorInstalling">Bazı assemblyleri yüklerken hata oluştu, detaylar için kayıtları kontrol edin.</system:String>
+
+    <system:String x:Key="EnableDeveloper">Geliştirici seçeneklerini aç</system:String>
+    <system:String x:Key="Developer">Geliştirici</system:String>
+    <system:String x:Key="New">Yeni</system:String>
+    <system:String x:Key="Edit">Düzenle</system:String>
+    <system:String x:Key="Clone">Klonla</system:String>
+
+    <system:String x:Key="Checking">Kontrol ediliyor...</system:String>
+    <system:String x:Key="Updated">Güncellendi</system:String>
+    <system:String x:Key="OUTDATED">GÜNCEL DEĞİL</system:String>
+    <system:String x:Key="Unknown">Bilinmiyor</system:String>
+    <system:String x:Key="UpdateStatus">Durum</system:String>
+
+    <system:String x:Key="LoaderUpdateFailed">Güncelleme başarısız, lütfen el ile güncelleyin. Hata:</system:String>
+    <system:String x:Key="LeagueNotFound">"League of Legends.exe" bulunamıyor, özel oyun başlatmayı deneyin.</system:String>
+    <system:String x:Key="UpdateSuccess">LeagueSharp kurulu League of Legends versiyonuna göre başarıyla güncellendi.</system:String>
+    <system:String x:Key="UpdateUnknown">LeagueSharp'ın güncel olup olmadığı bilinmiyor, bu genellikle joduska.me erişilemiyor anlamına gelir.</system:String>
+    <system:String x:Key="NotUpdateNeeded">LeagueSharp kurulu League of Legends versiyonuna göre güncel.</system:String>
+    <system:String x:Key="RandomizationFailed">Could not randomize the dll names.</system:String>
+</ResourceDictionary>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Install>true</Install>
+  <FirstRun>true</FirstRun>
+  <UpdateOnLoad>true</UpdateOnLoad>
+  <Hotkeys>
+    <SelectedHotkeys>
+      <SelectedHotkeys>
+        <Name>Reload</Name>
+        <Description>Reload the assemblies</Description>
+        <Hotkey>F5</Hotkey>
+        <DefaultKey>F5</DefaultKey>
+      </SelectedHotkeys>
+      <SelectedHotkeys>
+        <Name>CompileAndReload</Name>
+        <Description>Recompile and reload the assemblies</Description>
+        <Hotkey>F8</Hotkey>
+        <HotkeyInt>119</HotkeyInt>
+        <DefaultKey>F8</DefaultKey>
+      </SelectedHotkeys>
+      <SelectedHotkeys>
+        <Name>ShowMenuPress</Name>
+        <Description>Shows the menu (Press)</Description>
+        <Hotkey>LeftShift</Hotkey>
+        <DefaultKey>LeftShift</DefaultKey>
+      </SelectedHotkeys>
+      <SelectedHotkeys>
+        <Name>ShowMenuToggle</Name>
+        <Description>Shows the menu (Toggle)</Description>
+        <Hotkey>F9</Hotkey>
+        <HotkeyInt>120</HotkeyInt>
+        <DefaultKey>F9</DefaultKey>
+      </SelectedHotkeys>
+    </SelectedHotkeys>
+  </Hotkeys>
+  <Settings>
+    <GameSettings>
+      <GameSettings>
+        <Name>Anti-AFK</Name>
+        <PosibleValues>
+          <string>True</string>
+          <string>False</string>
+        </PosibleValues>
+        <SelectedValue>False</SelectedValue>
+      </GameSettings>
+      <GameSettings>
+        <Name>Debug Console</Name>
+        <PosibleValues>
+          <string>True</string>
+          <string>False</string>
+        </PosibleValues>
+        <SelectedValue>False</SelectedValue>
+      </GameSettings>
+      <GameSettings>
+        <Name>Display Enemy Tower Range</Name>
+        <PosibleValues>
+          <string>True</string>
+          <string>False</string>
+        </PosibleValues>
+        <SelectedValue>False</SelectedValue>
+      </GameSettings>
+      <GameSettings>
+        <Name>Extended Zoom</Name>
+        <PosibleValues>
+          <string>True</string>
+          <string>False</string>
+        </PosibleValues>
+        <SelectedValue>False</SelectedValue>
+      </GameSettings>
+    </GameSettings>
+  </Settings>
+  <SelectedProfile>
+    <Name>Default</Name>
+    <InstalledAssemblies>
+      <LeagueSharpAssembly>
+        <InstallChecked>true</InstallChecked>
+        <InjectChecked>true</InjectChecked>
+        <Status>Ready</Status>
+        <DisplayName>LeagueSharp.Common</DisplayName>
+        <Name>LeagueSharp.Common</Name>
+        <PathToProjectFile>%AppData%\LeagueSharp\Repositories\8A7DEFD1\trunk\LeagueSharp.Common\LeagueSharp.Common\LeagueSharp.Common.csproj</PathToProjectFile>
+        <Description />
+        <SvnUrl>https://github.com/LeagueSharp/LeagueSharpCommon</SvnUrl>
+      </LeagueSharpAssembly>
+    </InstalledAssemblies>
+  </SelectedProfile>
+  <Profiles>
+    <Profiles>
+      <Name>Default</Name>
+      <InstalledAssemblies>
+        <LeagueSharpAssembly>
+          <InstallChecked>true</InstallChecked>
+          <InjectChecked>true</InjectChecked>
+          <Status>Ready</Status>
+          <DisplayName>LeagueSharp.Common</DisplayName>
+          <Name>LeagueSharp.Common</Name>
+          <PathToProjectFile>%AppData%\LeagueSharp\Repositories\8A7DEFD1\trunk\LeagueSharp.Common\LeagueSharp.Common\LeagueSharp.Common.csproj</PathToProjectFile>
+          <Description />
+          <SvnUrl>https://github.com/LeagueSharp/LeagueSharpCommon</SvnUrl>
+        </LeagueSharpAssembly>
+      </InstalledAssemblies>
+    </Profiles>
+  </Profiles>
+  <KnownRepositories>
+    <KnownRepositories>https://github.com/Lizzaran/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/LeagueSharp/LeagueSharpCommon</KnownRepositories>
+    <KnownRepositories>https://github.com/Esk0r/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/RoachxD/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/trelli/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/detuks/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/Chogart/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/Irvinee/leaguesharp</KnownRepositories>
+    <KnownRepositories>https://github.com/TC-Crew/L-Assemblies</KnownRepositories>
+    <KnownRepositories>https://github.com/jasteph/LeagueSharp</KnownRepositories>
+    <KnownRepositories>https://github.com/Xionanx/Leaguesharp-Projects</KnownRepositories>
+    <KnownRepositories>https://github.com/BotHappy/Ecko</KnownRepositories>
+  </KnownRepositories>
+</Config>
